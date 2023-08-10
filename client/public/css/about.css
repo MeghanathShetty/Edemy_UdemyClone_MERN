@@ -1,0 +1,111 @@
+
+/* ==========Sushanth=============== */
+
+.text-container {
+    justify-content: center;
+    align-items: center;
+    margin-left: 2vw;
+    margin-top: 2vh;
+  }
+  
+  .text-container h2 {
+     position: relative; 
+    font-size: xxx-large;
+    margin: 0;
+  }
+  .text-container p {
+    position: relative;  
+    font-size: large;
+  }
+
+   .right-background {
+    background-image: url('../img/background.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-size:105%;
+    background-position: center;
+    height: 80vh; 
+    display: flex;
+    flex-wrap: wrap;
+    flex:60%
+    }
+  .learnMoreButton{
+    background-color: #628ad6;
+    position: relative;
+    margin-right:7px;
+  }
+  .contactusButton{
+    background-color: #aeb3bb;
+    position: relative;
+  }
+
+  @media (max-width:1000px) {
+    .text-container{
+      order:2;
+      /* margin-top: -25vh; */
+      position: relative;
+
+    }
+    .right-background{
+      order:1;
+      margin-top: -4vh;
+      position: relative;
+      margin-bottom: -6vh;
+
+    }
+    .row
+    {
+      display: flex;
+      flex-wrap: wrap;
+    }
+    
+  }
+
+  @media (max-width: 568px) {
+
+    .text-container
+    {
+      /* background-image: url('../img/about46.avif');
+      background-repeat: no-repeat;
+      background-size: cover;
+      background-size:105%;
+      background-position: center; */
+      /* margin-top: -25vh; */
+      /* margin: 0; */
+      order: 2;
+    }
+    .right-background {
+      /* display: none; */
+      order: 1;
+      margin-top: -19vh;
+      margin-bottom: -22vh;
+      padding: 0;
+      /* margin: 0; */
+
+    }
+    .square {
+      border-radius: 0%;
+    }
+  
+    .jumbotron {
+      background-image: linear-gradient(to right, #628ad6, #000);
+      color: #ffff;
+    }
+  
+    .text-container h2 {
+      font-size: xxx-large;
+    }
+  
+    .text-container p {
+      font-size: large;
+    }
+  
+    .row
+    {
+      display: flex;
+    }
+  
+   
+  }
+  
+  /* ============================ */

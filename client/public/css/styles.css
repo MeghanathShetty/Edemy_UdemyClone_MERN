@@ -1,0 +1,111 @@
+.square
+{
+    border-radius: 0%;
+}
+
+.jumbotron
+{
+background-color: #2876f9;
+background-image: linear-gradient(315deg, #2876f9 0%, #6d17cb 74%);
+ color: #ffff;
+
+
+}
+
+  /* ======rakshith============== */
+
+    .main{
+      position: relative;
+      top: 7.3vh;
+  }
+  @media screen and (max-width:800px)
+  {
+      .r1{
+          position: relative;
+          margin-top: -10.6vh;
+          flex-direction:row;
+      }
+      .contact_div1{
+          flex:100%;
+      }
+      .contact_div2{
+          flex:100%;
+      }
+  }
+  .message{
+      background-image: linear-gradient(to right,#007bff,#000);
+  }
+  .contact_div1{
+      background-image: url("../img/contact2.svg");
+      background-repeat: no-repeat;
+      background-size:105%;
+      background-position: center;
+      width: 55vw;
+      height: 55vh;
+    }
+  .r1{
+      display: flex;
+      flex-wrap: wrap;
+  }
+  .r2 {
+      background-color: #92989B;
+      position: relative;
+      margin-top: 6vh;
+      width: 100vw;
+      height: 18vh;
+      flex: 100%;
+    
+    }
+
+  /* =================================== */
+
+
+  /* payment============================ */
+
+  .book_name {
+    font-size: 20px;
+    font-weight: bold;
+    margin: 5px 0;
+    text-align: center;
+  }
+  
+  .book_author {
+    font-size: 16px;
+    font-weight: 500;
+    margin: 5px 0;
+    text-align: center;
+  }
+  
+  .book_price {
+    font-size: 16px;
+    font-weight: 500;
+    margin: 5px 0;
+    text-align: center;
+  }
+  
+  .book_price > span {
+    color: #21a700;
+  }
+  
+  .buy_btn {
+    width: 100%;
+    height: 50px;
+    outline: none;
+    border: none;
+    font-size: 12px;
+    text-transform: uppercase;
+    font-weight: bold;
+    cursor: pointer;
+    border-bottom-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+    background-color: #f4d072;
+    margin-top: 10px;
+  }
+
+  /* ===================================== */
+
+  /* videos */
+  .pointer
+  {
+    cursor: pointer;
+  }

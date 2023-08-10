@@ -1,0 +1,32 @@
+
+.forget_main {
+    background-image: url('../img/vec7.jpeg');
+    background-repeat: no-repeat;
+    background-size:70%;
+    top:15%;
+    background-position: center;
+    position:absolute;
+    width: 100%;
+    height: 70%;
+  }
+  .lemail{
+    position: relative;
+    right:4.3rem;
+  }
+  h4{
+    font-size:large;
+  }
+  /* Media Queries */
+  @media only screen and (max-width: 600px) {
+    .forget_main {
+        top: -1%;
+    }
+  }
+  
+  @media only screen and (max-width: 900px) {
+    .forget_main {
+      top: 5%;
+    }
+  }
+  
+  /* ================================= */
