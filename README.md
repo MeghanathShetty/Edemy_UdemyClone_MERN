@@ -1,6 +1,23 @@
 # Edemy_mini_Internship
-Edemy (Udemy Clone) WebApp
-## -------Preview-------
+Edemy (Udemy Clone) WebApp using MERN
+## ------- Front-End -------
+1. React
+2. Bootstrap
+3. Ant-design
+
+## ------- Back-End -------
+1. Node.js
+2. Express
+3. MongoDB Atlas(DataBase)
+
+## ------- Others -------
+1. Razorpay for paymnent
+2. csurf for cross-site-request-forgery protection
+3. AWS for cloud storage
+   
+
+
+## ------- Preview -------
 
 
 ## Register Page
