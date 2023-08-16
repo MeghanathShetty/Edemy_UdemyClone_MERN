@@ -30,7 +30,7 @@ Edemy (Udemy Clone) WebApp using MERN
 ![image](https://github.com/MeghanathShetty/Edemy-UdemyClone/assets/127648939/f57e0a7b-6d94-4422-942a-852f8e81b09e)
 ### Instructor-dashboard
 ![image](https://github.com/MeghanathShetty/Edemy-UdemyClone/assets/127648939/edd08418-a408-4a73-8715-97d2c5d50f50)
-### AddLessonn dashboard
+### Instructor-AddLesson dashboard
 ![image](https://github.com/MeghanathShetty/Edemy-UdemyClone/assets/127648939/745fc297-5396-4617-b475-f46830436d9a)
 
 
