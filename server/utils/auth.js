@@ -37,8 +37,8 @@ export const sendEmail = async (email, subject, text) => {
 			port: 465,
 			secure: true,
 			auth: {
-				user:'process.env.VERIFY_EMAIL,
-				pass: process.env.VERIFY_EMAIL_PASS,
+				user:process.env.VERIFY_EMAIL,
+				pass:process.env.VERIFY_EMAIL_PASS,
 			},
 		});
 
