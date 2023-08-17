@@ -1,5 +1,6 @@
 import bcrypt from 'bcrypt';
 const nodemailer = require("nodemailer");
+require("dotenv").config():
 
 export const hashPassword=(password)=>
 {
@@ -36,8 +37,8 @@ export const sendEmail = async (email, subject, text) => {
 			port: 465,
 			secure: true,
 			auth: {
-				user:'vehiclebreakmca@gmail.com',
-				pass:'qtqwzegaafqipnka',
+				user:'process.env.VERIFY_EMAIL,
+				pass: process.env.VERIFY_EMAIL_PASS,
 			},
 		});
 
